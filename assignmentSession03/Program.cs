@@ -133,6 +133,16 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 13
+
+            int j= 0;
+            while(j< books.Length) { 
+                Console.WriteLine(books[j]);
+                j++;
+                    }
+
+            #endregion
+
 
             Console.ReadLine();
         }
