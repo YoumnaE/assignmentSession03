@@ -55,6 +55,14 @@ namespace assignmentSession03
             Console.WriteLine(sentence2);
 
             #endregion
+
+
+            #region Question 7 
+
+            string sentence3 = string.Format("Book: {0}, pages: {1}", title1, pages);
+            Console.WriteLine(sentence3);
+
+            #endregion
             Console.ReadLine();
         }
     }
