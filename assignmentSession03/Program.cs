@@ -99,7 +99,7 @@ namespace assignmentSession03
             Console.WriteLine("Enter a Book Title: ");
             string bookTitle = Console.ReadLine();
 
-            switch(bookTitle){
+            switch (bookTitle) {
                 case "Clean Code":
                     Console.WriteLine("Great choice!");
                     break;
@@ -108,7 +108,7 @@ namespace assignmentSession03
                     Console.WriteLine("Nice pick!");
                     break;
 
-                default: 
+                default:
                     Console.WriteLine("Never heard of it");
                     break;
             }
@@ -127,19 +127,19 @@ namespace assignmentSession03
 
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i = 0; i < books.Length; i++) { 
-            Console.WriteLine(i+1  + ". " + books[i]);
+            for (int i = 0; i < books.Length; i++) {
+                Console.WriteLine(i + 1 + ". " + books[i]);
             }
 
             #endregion
 
             #region Question 13
 
-            int j= 0;
-            while(j< books.Length) { 
+            int j = 0;
+            while (j < books.Length) {
                 Console.WriteLine(books[j]);
                 j++;
-                    }
+            }
 
             #endregion
 
@@ -168,7 +168,7 @@ namespace assignmentSession03
             {
                 Console.WriteLine(book);
 
-                if (title == "Refactoring")
+                if (book == "Refactoring")
                 {
                     break;
                 }
@@ -176,7 +176,32 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 17
+
+            foreach (string book in books)
+            {
+
+                if (book != "The Pragmatic Programmer")
+                {
+                    Console.WriteLine(book);
+                }
+            }
+
+            #endregion
+
+
+            #region Question 18
+
+            PrintFirst(books);
+
+            #endregion
+
             Console.ReadLine();
         }
-    }
-}
+    
+
+    static void PrintFirst(string[] books)
+        {
+            Console.WriteLine(books[0]);
+
+        } } }
