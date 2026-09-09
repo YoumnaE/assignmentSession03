@@ -91,6 +91,34 @@ namespace assignmentSession03
             else { Console.WriteLine("too short"); }
 
             #endregion
+
+            #region Question 10
+
+            string title3 = "Refactoring";
+
+            Console.WriteLine("Enter a Book Title: ");
+            string bookTitle = Console.ReadLine();
+
+            switch(bookTitle){
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default: 
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+
+
+            #endregion
+
+
+
+
             Console.ReadLine();
         }
     }
