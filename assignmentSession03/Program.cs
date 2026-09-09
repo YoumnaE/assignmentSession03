@@ -77,7 +77,20 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 9
 
+            bool isAvailable = true;
+            if (isAvailable && pages >= 300)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            else if (!isAvailable)
+            {
+                Console.WriteLine("Not Available");
+            }
+            else { Console.WriteLine("too short"); }
+
+            #endregion
             Console.ReadLine();
         }
     }
