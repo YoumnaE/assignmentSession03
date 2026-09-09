@@ -143,6 +143,16 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 14
+            j = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                j++;
+            } while (j < 3);
+
+            #endregion
+
 
             Console.ReadLine();
         }
