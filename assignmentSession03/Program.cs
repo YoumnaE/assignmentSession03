@@ -33,7 +33,12 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 4
 
+            stringbuilder.Replace("Book List", "Library");
+            Console.WriteLine(stringbuilder);
+
+            #endregion
             Console.ReadLine();
         }
     }
