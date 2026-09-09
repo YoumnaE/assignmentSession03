@@ -153,6 +153,16 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 15
+
+            foreach (var book in books)
+            {
+                Console.WriteLine(book);
+            }
+
+            #endregion
+
+
 
             Console.ReadLine();
         }
