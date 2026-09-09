@@ -39,6 +39,15 @@ namespace assignmentSession03
             Console.WriteLine(stringbuilder);
 
             #endregion
+
+            #region Question 5
+
+            string title1 = "Clean Code";
+            int pages = 464;
+            string sentence = "Book:" + title1 + ", Pages:" + pages;
+            Console.WriteLine(sentence);
+
+            #endregion
             Console.ReadLine();
         }
     }
