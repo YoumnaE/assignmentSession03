@@ -48,6 +48,13 @@ namespace assignmentSession03
             Console.WriteLine(sentence);
 
             #endregion
+
+            #region Question 6
+
+            string sentence2 = $"Book: {title1}, Pages: {pages}";
+            Console.WriteLine(sentence2);
+
+            #endregion
             Console.ReadLine();
         }
     }
