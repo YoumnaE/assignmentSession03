@@ -116,7 +116,12 @@ namespace assignmentSession03
 
             #endregion
 
+            #region Question 11
 
+            string message = pages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(message);
+
+            #endregion
 
 
             Console.ReadLine();
