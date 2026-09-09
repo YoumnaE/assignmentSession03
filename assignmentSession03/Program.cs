@@ -155,14 +155,26 @@ namespace assignmentSession03
 
             #region Question 15
 
-            foreach (var book in books)
+            foreach (string book in books)
             {
                 Console.WriteLine(book);
             }
 
             #endregion
 
+            #region Question 16
 
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+
+                if (title == "Refactoring")
+                {
+                    break;
+                }
+            }
+
+            #endregion
 
             Console.ReadLine();
         }
