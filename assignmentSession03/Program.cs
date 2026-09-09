@@ -63,6 +63,21 @@ namespace assignmentSession03
             Console.WriteLine(sentence3);
 
             #endregion
+
+            #region Question 8
+
+            if (pages >= 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+
+            #endregion
+
+
             Console.ReadLine();
         }
     }
