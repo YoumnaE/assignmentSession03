@@ -1,4 +1,6 @@
-﻿namespace assignmentSession03
+﻿using System.Text;
+
+namespace assignmentSession03
 {
     internal class Program
     {
@@ -14,13 +16,23 @@
             #endregion
 
 
-            #region
+            #region Question 2
 
             string string1 = "Clean Code";
             string string2 = "Clean Code";
-            string string3 = string1;
+            Console.WriteLine(object.ReferenceEquals(string1, string2)); //true
+            #endregion
+
+
+            #region Question 3
+
+            StringBuilder stringbuilder = new StringBuilder();
+            stringbuilder.Append("Book List");
+            stringbuilder.Append(" - Updated");
+            Console.WriteLine(stringbuilder);
 
             #endregion
+
 
             Console.ReadLine();
         }
